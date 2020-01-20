@@ -3,10 +3,11 @@
 
 #include <iostream>
 #include "hailstone.h"
+#include "Sort.h"
 
 int main()
 {
-	//希尔顿序列测试
+	/*希尔顿序列测试*/
 	int n = 28;
 	int NumberofHailstone1 = 0;
 	int NumberofHailstone2 = 0;
@@ -15,7 +16,21 @@ int main()
 	std::cout << "Using Hailstone_Recursive() The length of the Hailstone(" << n << ")" << " is "
 		<< NumberofHailstone1 << std::endl;
 	std::cout << "Using Hailstone() The length of the Hailstone(" << n << ")" << " is "
-		<< NumberofHailstone2 << std::endl;
+		<< NumberofHailstone2 <<" \n"<< std::endl;
+
+	/*起泡排序测试*/
+	int A[] = { 1, 3, 2, 45, 44, 67 ,32 ,9 };
+	int LengthofA = sizeof(A) / sizeof(int);
+	std::cout << "Unsorting numbers:	";
+	for (int i = 0; i < LengthofA; i++)
+		std::cout << A[i] << " ";
+	std::cout << std::endl;
+	bubblesort(A, LengthofA);//调用起泡排序
+	std::cout << "Sorting numbers:	";
+	for (int i = 0; i < LengthofA; i++)
+		std::cout << A[i] << " ";
+	std::cout << " \n" << std::endl;
+
 
 	
 }
