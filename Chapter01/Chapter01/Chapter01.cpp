@@ -4,6 +4,7 @@
 #include <iostream>
 #include "hailstone.h"
 #include "Sort.h"
+#include "others.h"
 
 int main()
 {
@@ -30,9 +31,10 @@ int main()
 	for (int i = 0; i < LengthofA; i++)
 		std::cout << A[i] << " ";
 	std::cout << " \n" << std::endl;
+	/*计算二进制数n中包含1的个数*/
+	int num = 16;
+	std::cout << "The number of \"1\" in " << num << " is " << OnesCounter(num) << std::endl;
 
-
-	
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

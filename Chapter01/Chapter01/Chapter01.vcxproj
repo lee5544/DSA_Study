@@ -153,10 +153,12 @@
   <ItemGroup>
     <ClCompile Include="Chapter01.cpp" />
     <ClCompile Include="Hailstone.cpp" />
+    <ClCompile Include="others.cpp" />
     <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Hailstone.h" />
+    <ClInclude Include="others.h" />
     <ClInclude Include="Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
