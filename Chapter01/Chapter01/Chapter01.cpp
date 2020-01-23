@@ -33,8 +33,14 @@ int main()
 	std::cout << " \n" << std::endl;
 	/*计算二进制数n中包含1的个数*/
 	int num = 16;
-	std::cout << "The number of \"1\" in " << num << " is " << OnesCounter(num) << std::endl;
+	std::cout << "The number of \"1\" in " << num << " is " 
+		<< OnesCounter(num) << " \n" << std::endl;
 
+	/*测试递归版本的数组求和函数*/
+	int Aa[] = { 0,1,2,3,4,5,6 };
+	int nofAa = sizeof(Aa) / sizeof(int);
+	std::cout << "The sum of Aa is (Recursive) " 
+		<< sumRecursive(Aa, nofAa) << std::endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

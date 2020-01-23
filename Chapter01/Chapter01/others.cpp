@@ -12,3 +12,11 @@ int OnesCounter(int n)
 	}
 	return count;
 }
+
+int sumRecursive(int A[], int n)
+{
+	if (1 > n)
+		return 0;
+	else
+		return sumRecursive(A, n - 1) + A[n - 1];
+}
