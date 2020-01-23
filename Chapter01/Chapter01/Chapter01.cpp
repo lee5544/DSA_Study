@@ -41,6 +41,7 @@ int main()
 	int nofAa = sizeof(Aa) / sizeof(int);
 	std::cout << "The sum of Aa is (Recursive) " 
 		<< sumRecursive(Aa, nofAa) << std::endl;
+
 	/*测试二分递归版本的数组求和函数*/
 	std::cout << "The sum of Aa is (BinaryRecursive) "
 		<< sumBinaryRecursive(Aa, 0, nofAa-1) << " \n" << std::endl;
@@ -56,6 +57,11 @@ int main()
 	std::cout << "Reversed numbers:	";
 	for (int i = 0; i < high; i++)
 		std::cout << Ab[i] << " ";
+	std::cout << std::endl; std::cout << std::endl;
+
+	/*测试递归版本的斐波拉契数列函数*/
+	int nfib = 3;
+	std::cout << "Fib(nfib): " << fibDP(nfib) << std::endl;
 	std::cout << std::endl;
 }
 

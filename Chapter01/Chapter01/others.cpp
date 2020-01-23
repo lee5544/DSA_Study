@@ -49,3 +49,15 @@ int reverseRecursive(int A[], int low, int high)
 	}
 	return 0;
 }
+
+//基于动态规划的斐波拉契数列求解问题
+int fibDP(int n)
+{
+	int f1 = 0; int f2 = 1;
+	while ((n--) > 1)
+	{
+		f2 = f1 + f2;
+		f1 = f2 - f1;
+	}
+	return f2;
+}
