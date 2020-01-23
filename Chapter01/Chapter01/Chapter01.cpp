@@ -40,7 +40,20 @@ int main()
 	int Aa[] = { 0,1,2,3,4,5,6 };
 	int nofAa = sizeof(Aa) / sizeof(int);
 	std::cout << "The sum of Aa is (Recursive) " 
-		<< sumRecursive(Aa, nofAa) << std::endl;
+		<< sumRecursive(Aa, nofAa) << " \n" << std::endl;
+
+	/*测试递归版本的数组倒置函数*/
+	int Ab[] = { 0,1,2,3,4,5,6,7 };
+	int low = 0; int high = sizeof(Ab) / sizeof(int);
+	std::cout << "Unreverse numbers:	";
+	for (int i = 0; i < high; i++)
+		std::cout << Ab[i] << " ";
+	std::cout << std::endl;
+	reverseRecursive(Ab, low, high-1);
+	std::cout << "Reversed numbers:	";
+	for (int i = 0; i < high; i++)
+		std::cout << Ab[i] << " ";
+	std::cout << std::endl;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
