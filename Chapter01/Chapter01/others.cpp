@@ -22,6 +22,20 @@ int sumRecursive(int A[], int n)
 		return sumRecursive(A, n - 1) + A[n - 1];
 }
 
+//二分递归数组求和
+int sumBinaryRecursive(int A[], int low, int high)
+{
+	int middle;
+	if (low == high)
+		return A[low];
+	else
+	{
+		middle = (low + high) >> 1;
+		return sumBinaryRecursive(A, low, middle) 
+			+ sumBinaryRecursive(A, middle+1, high);
+	}
+}
+
 //递归数组倒置
 int reverseRecursive(int A[], int low, int high)
 {

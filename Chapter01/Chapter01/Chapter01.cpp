@@ -40,7 +40,10 @@ int main()
 	int Aa[] = { 0,1,2,3,4,5,6 };
 	int nofAa = sizeof(Aa) / sizeof(int);
 	std::cout << "The sum of Aa is (Recursive) " 
-		<< sumRecursive(Aa, nofAa) << " \n" << std::endl;
+		<< sumRecursive(Aa, nofAa) << std::endl;
+	/*测试二分递归版本的数组求和函数*/
+	std::cout << "The sum of Aa is (BinaryRecursive) "
+		<< sumBinaryRecursive(Aa, 0, nofAa-1) << " \n" << std::endl;
 
 	/*测试递归版本的数组倒置函数*/
 	int Ab[] = { 0,1,2,3,4,5,6,7 };
