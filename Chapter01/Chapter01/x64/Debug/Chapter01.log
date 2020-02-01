@@ -1,2 +1,5 @@
-﻿  Chapter01.cpp
-  Chapter01.vcxproj -> C:\GitProject\DSA_Study\Chapter01\x64\Debug\Chapter01.exe
+﻿Chapter01.obj : error LNK2019: 无法解析的外部符号 "int __cdecl sumRecursive(int * const,int)" (?sumRecursive@@YAHQEAHH@Z)，该符号在函数 main 中被引用
+Chapter01.obj : error LNK2019: 无法解析的外部符号 "int __cdecl sumBinaryRecursive(int * const,int,int)" (?sumBinaryRecursive@@YAHQEAHHH@Z)，该符号在函数 main 中被引用
+Chapter01.obj : error LNK2019: 无法解析的外部符号 "int __cdecl reverseRecursive(int * const,int,int)" (?reverseRecursive@@YAHQEAHHH@Z)，该符号在函数 main 中被引用
+Chapter01.obj : error LNK2019: 无法解析的外部符号 "int __cdecl fibDP(int)" (?fibDP@@YAHH@Z)，该符号在函数 main 中被引用
+C:\GitProject\DSA_Study\Chapter01\x64\Debug\Chapter01.exe : fatal error LNK1120: 4 个无法解析的外部命令
