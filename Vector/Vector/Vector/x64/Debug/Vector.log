@@ -1,4 +1,7 @@
 ﻿  Vector.cpp
-  VectorTest.cpp
-  正在生成代码...
-  Vector.vcxproj -> C:\GitProject\DSA_Study\Vector\Vector\x64\Debug\Vector.exe
+C:\GitProject\DSA_Study\Vector\Vector\Vector\Vector.h(14,1): error C2143: 语法错误: 缺少“;”(在“public”的前面)
+C:\GitProject\DSA_Study\Vector\Vector\Vector\Vector.h(31): message : 查看对正在编译的 类 模板 实例化“Vector<T>”的引用
+C:\GitProject\DSA_Study\Vector\Vector\Vector\Vector.h(16,1): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+C:\GitProject\DSA_Study\Vector\Vector\Vector\Vector.h(16,1): error C2059: 语法错误:“,”
+C:\GitProject\DSA_Study\Vector\Vector\Vector\Vector.h(16,1): error C2059: 语法错误:“)”
+C:\GitProject\DSA_Study\Vector\Vector\Vector\Vector.h(17,1): error C2334: “{”的前面有意外标记；跳过明显的函数体
