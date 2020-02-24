@@ -152,11 +152,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BF.cpp" />
+    <ClCompile Include="BM.cpp" />
     <ClCompile Include="KMP.cpp" />
     <ClCompile Include="StringMatching.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BF.h" />
+    <ClInclude Include="BM.h" />
     <ClInclude Include="KMP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
